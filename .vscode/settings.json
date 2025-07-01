@@ -1,4 +1,10 @@
 {
-  "editor.formatOnSave": true,
-  "editor.tabSize": 4
+    "editor.formatOnSave": true,
+    "editor.tabSize": 4,
+    "files.associations": {
+        "**/templates/**/*.html": "django-html"
+    },
+    "emmet.includeLanguages": {
+        "django-html": "html"
+    }
 }
